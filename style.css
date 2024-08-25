@@ -1,0 +1,928 @@
+body {
+    background-color: #302C42;
+}
+
+.background {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+.hero-section {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    width: 1272px;
+    height: 960px;
+    z-index: 1;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo img:last-child {
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.navbar-links {
+    position: relative;
+    width: 500px;
+    left: 350px;
+    top: -65px;
+
+}
+
+.navbar-links span {
+    font-family: montserrat;
+    color: white;
+    width: 400px;
+    height: 30px;
+    margin-right: 50px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-us {
+    position: relative;
+    left: 930px;
+    top: -100px;
+    background: transparent;
+    width: 154px;
+    height: 48px;
+    border: 2px solid white;
+    border-radius: 30px;
+    line-height: 25px;
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    transition: 0.5;
+}
+
+.contact-us:hover {
+    background: white;
+    color: black;
+}
+
+.contact-us a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.join-hydra {
+    position: relative;
+    left: 1150px;
+    top: -165px;
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 35%);
+    width: 160px;
+    height: 53px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 53px;
+    transition: background .5s;
+}
+
+.join-hydra p {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+
+.join-hydra a {
+    text-decoration: none;
+}
+
+.join-hydra:hover {
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 95%);
+}
+
+.dive {
+    font-family: montserrat;
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    width: 550px;
+}
+
+.dive span {
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.lorem {
+    position: relative;
+    top: -10px;
+    font-family: montserrat;
+    font-weight: 400;
+    width: 450px;
+    height: 72px;
+    line-height: 26px;
+    font-size: 16px;
+    color: white;
+}
+
+.byw-button {
+    width: 214px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 12px;
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 50%);
+    font-family: montserrat;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: black;
+}
+
+.byw img:last-child {
+    position: relative;
+    left: 225px;
+    top: -85px;
+}
+
+.vr-glasses {
+    position: relative;
+    width: 524px;
+    height: 455px;
+    left: 700px;
+    top: -500px;
+}
+
+.info {
+    position: relative;
+    top: -430px;
+    width: 300px;
+    height: 100px;
+}
+
+.location {
+    position: relative;
+    top: -200px;
+}
+
+.location p {
+    color: white;
+    font-family: montserrat;
+}
+
+.location img:nth-child(1) {
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+
+.location p:nth-child(2) {
+    position: relative;
+    left: 120px;
+    top: -25px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.location p:nth-child(3) {
+    position: relative;
+    left: 120px;
+    top: -40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.location img:nth-child(4) {
+    position: absolute;
+    left: 460px;
+    top: 50px;
+    width: 1px;
+    height: 117px;
+}
+
+.shape {
+    position: relative;
+    top: -305px;
+    left: 500px;
+    width: 300px;
+    height: 100px;
+}
+
+.shape p {
+    position: relative;
+    left: 100px;
+    font-family: montserrat;
+    color: white;
+}
+
+.shape p:nth-child(2) {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    top: -85px;
+}
+
+.shape p:nth-child(3) {
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    top: -100px;
+}
+
+.shape img:nth-child(4) {
+    position: absolute;
+    width: 1px;
+    height: 117px;
+    left: 325px;
+    top: -30px;
+}
+
+.mail {
+    font-family: montserrat;
+    color: white;
+    position: relative;
+    top: -415px;
+    left: 870px;
+}
+
+.mail p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    top: -90px;
+    left: 90px;
+}
+
+.mail p:nth-child(3) {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    top: -105px;
+    left: 90px;
+}
+
+.about-section {
+    position: relative;
+    left: 100px;
+    top: -4630px;
+    width: 1272px;
+    height: 756px;
+}
+
+.introduction {
+    font-family: montserrat;
+    color: white;
+}
+
+.introduction p:nth-child(1) {
+    width: 350px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.introduction p:nth-child(2) {
+    width: 300px;
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.introduction img:nth-child(3) {
+    position: relative;
+    left: 280px;
+    top: -70px;
+}
+
+.introduction p:nth-child(4) {
+    width: 652px;
+    height: 98px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 600px;
+    top: -220px;
+    line-height: 25px;
+}
+
+.ahv {
+    font-family: montserrat;
+    color: white;
+}
+
+.ahv p:nth-child(2) {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    top: -650px;
+    left: 600px;
+    width: 150px;
+}
+
+.ahv p:nth-child(3) {
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    top: -680px;
+    left: 600px;
+    width: 200px;
+}
+
+.ahv img {
+    position: relative;
+    top: -140px;
+}
+
+.ahv p:nth-child(4) {
+    line-height: 30px;
+    position: relative;
+    top: -680px;
+}
+
+.ahv p:nth-child(5) {
+    width: 214px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 12px;
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 70%);
+    font-family: montserrat;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: black;
+    position: relative;
+    top: -560px;
+    left: 600px;
+}
+
+.ahv a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    justify-content: center;
+}
+
+.services-section {
+    width: 1272px;
+    height: 716px;
+    position: relative;
+    bottom: 4600px;
+    left: 100px;
+}
+
+.services-section p {
+    font-family: montserrat;
+    color: white;
+}
+
+.services-section p:nth-child(1) {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.services-section p:nth-child(2) {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.services-section img:nth-child(3) {
+    position: relative;
+    left: 280px;
+    bottom: 105px;
+}
+
+.services-section p:nth-child(4) {
+    width: 652px;
+    height: 98px;
+    line-height: 25px;
+    position: relative;
+    left: 600px;
+    bottom: 260px;
+}
+
+.services {
+    position: relative;
+    bottom: 175px;
+}
+
+.simulation,
+.education,
+.self-care,
+.outdoor {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.simulation {
+    width: 310px;
+    height: 511px;
+}
+
+.simulation p:nth-child(2) {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    width: 160px;
+    bottom: 250px;
+    left: 75px;
+}
+
+.simulation p:nth-child(3) {
+    width: 250px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+    bottom: 240px;
+    left: 30px;
+}
+
+.simulation p:nth-child(4) {
+    width: 154px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 12px;
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 70%);
+    font-family: montserrat;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: black;
+    position: relative;
+    left: 75px;
+}
+
+.education {
+    width: 310px;
+    height: 511px;
+}
+
+.education p:nth-child(2) {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    width: 160px;
+    bottom: 250px;
+    left: 75px;
+}
+
+.education p:nth-child(3) {
+    width: 250px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+    bottom: 240px;
+    left: 30px;
+}
+
+.education p:nth-child(4) {
+    width: 154px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 12px;
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 70%);
+    font-family: montserrat;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: black;
+    position: relative;
+    left: 75px;
+}
+
+.self-care {
+    width: 310px;
+    height: 511px;
+}
+
+.self-care p:nth-child(2) {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    width: 160px;
+    bottom: 250px;
+    left: 75px;
+}
+
+.self-care p:nth-child(3) {
+    width: 250px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+    bottom: 240px;
+    left: 30px;
+}
+
+.self-care p:nth-child(4) {
+    width: 154px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 12px;
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 70%);
+    font-family: montserrat;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: black;
+    position: relative;
+    left: 75px;
+}
+
+.outdoor {
+    width: 310px;
+    height: 511px;
+}
+
+.outdoor p:nth-child(2) {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    width: 160px;
+    bottom: 250px;
+    left: 75px;
+}
+
+.outdoor p:nth-child(3) {
+    width: 250px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+    bottom: 240px;
+    left: 30px;
+}
+
+.outdoor p:nth-child(4) {
+    width: 154px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 12px;
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 70%);
+    font-family: montserrat;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: black;
+    position: relative;
+    left: 75px;
+}
+
+.tech-section {
+    font-family: montserrat;
+    color: white;
+    width: 1278px;
+    height: 630px;
+    position: relative;
+    bottom: 4530px;
+    left: 90px;
+}
+
+.tech-section p:nth-child(1) {
+    position: relative;
+    top: 105px;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+
+.tech-section p:nth-child(2) {
+    position: relative;
+    top: 105px;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.tech-section img:nth-child(3) {
+    position: relative;
+    bottom: 140px;
+    z-index: 0;
+}
+
+.tech-section img:nth-child(4) {
+    position: relative;
+    bottom: 150px;
+    left: 75px;
+}
+
+.tech-section img:nth-child(5) {
+    position: relative;
+    bottom: 100px;
+    left: 475px;
+}
+
+.tech-section img:nth-child(6) {
+    position: relative;
+    bottom: 110px;
+    right: 110px;
+}
+
+.tech-section img:nth-child(7) {
+    position: relative;
+    bottom: 95px;
+    left: 260px;
+}
+
+.process-section {
+    font-family: montserrat;
+    color: white;
+    width: 1272px;
+    height: 509px;
+    position: relative;
+    bottom: 4500px;
+    left: 100px;
+}
+
+.process-section p:nth-child(1) {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.process-section p:nth-child(2) {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.process-section img:nth-child(3) {
+    position: absolute;
+    left: 340px;
+    bottom: 375px;
+}
+
+.process-section p:nth-child(4) {
+    position: relative;
+    width: 652px;
+    height: 98px;
+    left: 600px;
+    bottom: 140px;
+    line-height: 25px
+}
+
+.concept,
+.interaction,
+.vr-world,
+.hydra-vr {
+    font-size: 24px;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+.concept img:nth-child(1) {
+    position: relative;
+    left: 50px;
+}
+
+.concept img:nth-child(2) {
+    position: relative;
+    right: 200px;
+    top: 75px;
+}
+
+.concept p:nth-child(3) {
+    width: 187px;
+    height: 64px;
+    position: relative;
+    left: 70px;
+}
+
+.interaction img:nth-child(1) {
+    position: relative;
+    left: 370px;
+    bottom: 320px;
+}
+
+.interaction img:nth-child(2) {
+    position: relative;
+    left: 150px;
+    bottom: 240px;
+}
+
+.interaction p:nth-child(3) {
+    width: 140px;
+    height: 64px;
+    position: relative;
+    left: 420px;
+    bottom: 320px;
+}
+
+.vr-world img:nth-child(1) {
+    position: relative;
+    left: 670px;
+    bottom: 640px;
+}
+
+.vr-world img:nth-child(2) {
+    position: relative;
+    left: 450px;
+    bottom: 560px;
+}
+
+.vr-world p:nth-child(3) {
+    width: 157px;
+    height: 64px;
+    position: relative;
+    left: 720px;
+    bottom: 635px;
+}
+
+.hydra-vr img:nth-child(1) {
+    position: relative;
+    left: 1000px;
+    bottom: 950px;
+}
+
+.hydra-vr img:nth-child(2) {
+    position: relative;
+    left: 780px;
+    bottom: 875px;
+}
+
+.hydra-vr p:nth-child(3) {
+    width: 117px;
+    height: 64px;
+    position: relative;
+    left: 1050px;
+    bottom: 950px;
+}
+
+.form-pos {
+    position: relative;
+    bottom: 4000px;
+    left: 75px;
+    width: 1275px;
+    height: 1008px;
+}
+
+.form-pos p {
+    font-family: montserrat;
+    font-size: 36px;
+    color: white;
+}
+
+.form-background {
+    position: relative;
+    bottom: 350px;
+    z-index: 0;
+}
+
+.form-pos p:nth-child(2) {
+    position: relative;
+    bottom: 1250px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.form-pos p:nth-child(3) {
+    position: relative;
+    bottom: 1240px;
+    text-align: center;
+    z-index: 1;
+}
+
+.inputbox {
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 524px;
+    height: 72px;
+    margin: 20px 0;
+    position: relative;
+    bottom: 1230px;
+    left: 100px;
+    display: inline-block;
+    margin-inline: 5px;
+}
+
+.inputbox-subject {
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 1058px;
+    height: 72px;
+    position: relative;
+    bottom: 1200px;
+    left: 110px;
+}
+
+.inputbox label {
+    position: absolute;
+    left: 5px;
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    transition: .5s;
+    font-family: montserrat;
+}
+
+.inputbox input {
+    background: transparent;
+    width: 524px;
+    height: 72px;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    left: 40px;
+}
+
+input:focus~label,
+input:valid~label {
+    font-size: 0;
+}
+
+.inputbox-subject label {
+    position: absolute;
+    left: 5px;
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+}
+
+.inputbox-subject input {
+    background: transparent;
+    color: white;
+    width: 975px;
+    height: 72px;
+    border: none;
+    outline: none;
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    left: 40px;
+}
+
+.inputbox-comment {
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 1058px;
+    height: 210px;
+    position: relative;
+    bottom: 1150px;
+    left: 110px;
+}
+
+.inputbox-comment label {
+    position: absolute;
+    left: 5px;
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputbox-comment input {
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 1058px;
+    height: 210px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
